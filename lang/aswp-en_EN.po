@@ -1,0 +1,970 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AdSense Wordpress Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-10 13:41+0100\n"
+"PO-Revision-Date: 2012-05-10 13:41+0100\n"
+"Last-Translator: adf <a@as.si>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_c;_n:1,2;__ngtext:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/ads.php:53
+msgid "Selected ad doesn't exist!"
+msgstr ""
+
+#: lib/ads.php:74
+msgid "Selected ad was successfully deleted."
+msgstr ""
+
+#: lib/ads.php:84
+msgid "Selected ads were successfully deleted."
+msgstr ""
+
+#: lib/ads.php:91
+#: lib/ads.php:488
+#: lib/create_ad.php:126
+#: lib/top_link_ad.php:79
+msgid "Please enter your AdSense Publisher ID on the"
+msgstr ""
+
+#: lib/ads.php:91
+#: lib/ads.php:488
+#: lib/create_ad.php:126
+#: lib/top_link_ad.php:79
+msgid "options page"
+msgstr ""
+
+#: lib/ads.php:94
+#: lib/core.php:63
+msgid "Ads"
+msgstr ""
+
+#: lib/ads.php:94
+#: lib/core.php:64
+#: lib/create_ad.php:129
+msgid "Create New Ad"
+msgstr ""
+
+#: lib/ads.php:116
+#: lib/ads.php:505
+#: lib/create_ad.php:143
+msgid "Ad Name"
+msgstr ""
+
+#: lib/ads.php:121
+msgid "Ad Shortcode"
+msgstr ""
+
+#: lib/ads.php:126
+#: lib/ads.php:508
+#: lib/core.php:551
+#: lib/create_ad.php:146
+msgid "Ad Type"
+msgstr ""
+
+#: lib/ads.php:131
+msgid "Ad Format(s)"
+msgstr ""
+
+#: lib/ads.php:136
+msgid "Date Created"
+msgstr ""
+
+#: lib/ads.php:155
+#: lib/ads.php:512
+#: lib/ads.php:946
+#: lib/core.php:479
+#: lib/create_ad.php:150
+#: lib/create_ad.php:584
+msgid "Text"
+msgstr ""
+
+#: lib/ads.php:159
+#: lib/ads.php:517
+#: lib/core.php:483
+#: lib/create_ad.php:155
+msgid "Image"
+msgstr ""
+
+#: lib/ads.php:163
+#: lib/ads.php:522
+#: lib/core.php:487
+#: lib/create_ad.php:160
+msgid "Text & Image"
+msgstr ""
+
+#: lib/ads.php:250
+#: lib/ads.php:252
+msgid "Edit"
+msgstr ""
+
+#: lib/ads.php:253
+msgid "Delete this ad"
+msgstr ""
+
+#: lib/ads.php:253
+#: lib/html.php:617
+msgid "Delete"
+msgstr ""
+
+#: lib/ads.php:267
+#: lib/core.php:560
+msgid "No ads found."
+msgstr ""
+
+#: lib/ads.php:297
+#: lib/ads.php:330
+#: lib/ads.php:1011
+#: lib/core.php:711
+#: lib/create_ad.php:648
+#: lib/google_search.php:126
+#: lib/options.php:103
+#: lib/privacy_policy.php:150
+#: lib/top_link_ad.php:237
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: lib/ads.php:491
+msgid "Edit Ad"
+msgstr ""
+
+#: lib/ads.php:505
+#: lib/create_ad.php:143
+msgid "For your eyes only."
+msgstr ""
+
+#: lib/ads.php:530
+#: lib/create_ad.php:168
+#: lib/top_link_ad.php:100
+msgid "Reward Author"
+msgstr ""
+
+#: lib/ads.php:533
+#: lib/create_ad.php:171
+#: lib/top_link_ad.php:103
+#, php-format
+msgid "Donation<br /><span class=\"description\">5 means 5% or exactly once per 20 page view, 0 will disable donations. Default is off.</span>"
+msgstr ""
+
+#: lib/ads.php:539
+#: lib/create_ad.php:177
+#: lib/top_link_ad.php:109
+msgid "Ad Placement"
+msgstr ""
+
+#: lib/ads.php:542
+#: lib/create_ad.php:180
+msgid "Number of Ads per Page<br /><span class=\"description\">Set to 0 to disable ads in pages.</span>"
+msgstr ""
+
+#: lib/ads.php:546
+#: lib/ads.php:570
+#: lib/create_ad.php:184
+#: lib/create_ad.php:208
+msgid "0"
+msgstr ""
+
+#: lib/ads.php:551
+#: lib/ads.php:575
+#: lib/create_ad.php:189
+#: lib/create_ad.php:213
+msgid "1"
+msgstr ""
+
+#: lib/ads.php:556
+#: lib/ads.php:580
+#: lib/create_ad.php:194
+#: lib/create_ad.php:218
+msgid "2"
+msgstr ""
+
+#: lib/ads.php:561
+#: lib/ads.php:585
+#: lib/create_ad.php:199
+#: lib/create_ad.php:223
+msgid "3"
+msgstr ""
+
+#: lib/ads.php:566
+#: lib/create_ad.php:204
+msgid "Number of Ads per Post<br /><span class=\"description\">Set to 0 to disable ads in posts.</span>"
+msgstr ""
+
+#: lib/ads.php:590
+#: lib/create_ad.php:228
+msgid "Show ads on selected pages"
+msgstr ""
+
+#: lib/ads.php:595
+#: lib/create_ad.php:233
+#: lib/top_link_ad.php:117
+msgid "Home"
+msgstr ""
+
+#: lib/ads.php:601
+#: lib/create_ad.php:239
+#: lib/top_link_ad.php:123
+msgid "Category"
+msgstr ""
+
+#: lib/ads.php:607
+#: lib/create_ad.php:245
+#: lib/top_link_ad.php:129
+msgid "Archive"
+msgstr ""
+
+#: lib/ads.php:612
+#: lib/create_ad.php:250
+msgid "In Post Positions<br /><span class=\"description\">If you check more positions then total \"Number of Ads per\",<br />ads will be randomly distributed between the checked positions.</span>"
+msgstr ""
+
+#: lib/ads.php:625
+#: lib/create_ad.php:263
+msgid "Or"
+msgstr ""
+
+#: lib/ads.php:683
+#: lib/create_ad.php:321
+msgid "Insert ad after"
+msgstr ""
+
+#: lib/ads.php:684
+#: lib/create_ad.php:322
+msgid "paragraph"
+msgstr ""
+
+#: lib/ads.php:705
+#: lib/create_ad.php:343
+msgid "Margins<br /><span class=\"description\">Enter margins that will separate ad from content.</span>"
+msgstr ""
+
+#: lib/ads.php:732
+#: lib/create_ad.php:370
+#: lib/top_link_ad.php:137
+msgid "Ad Design"
+msgstr ""
+
+#: lib/ads.php:735
+#: lib/create_ad.php:373
+#: lib/top_link_ad.php:140
+msgid "Formats<br /><span class=\"description\">Choose more than 1 to show random format.</span>"
+msgstr ""
+
+#: lib/ads.php:740
+#: lib/create_ad.php:378
+msgid "120 x 600"
+msgstr ""
+
+#: lib/ads.php:746
+#: lib/create_ad.php:384
+msgid "120 x 240"
+msgstr ""
+
+#: lib/ads.php:752
+#: lib/create_ad.php:390
+msgid "120 x 90"
+msgstr ""
+
+#: lib/ads.php:758
+#: lib/create_ad.php:396
+msgid "125 x 125"
+msgstr ""
+
+#: lib/ads.php:764
+#: lib/create_ad.php:402
+msgid "160 x 90"
+msgstr ""
+
+#: lib/ads.php:770
+#: lib/create_ad.php:408
+msgid "160 x 600"
+msgstr ""
+
+#: lib/ads.php:776
+#: lib/create_ad.php:414
+msgid "180 x 90"
+msgstr ""
+
+#: lib/ads.php:782
+#: lib/create_ad.php:420
+msgid "180 x 150"
+msgstr ""
+
+#: lib/ads.php:788
+#: lib/create_ad.php:426
+msgid "200 x 90"
+msgstr ""
+
+#: lib/ads.php:794
+#: lib/create_ad.php:432
+msgid "200 x 200"
+msgstr ""
+
+#: lib/ads.php:800
+#: lib/create_ad.php:438
+msgid "234 x 60"
+msgstr ""
+
+#: lib/ads.php:806
+#: lib/create_ad.php:444
+msgid "250 x 250"
+msgstr ""
+
+#: lib/ads.php:812
+#: lib/create_ad.php:450
+msgid "300 x 250"
+msgstr ""
+
+#: lib/ads.php:818
+#: lib/create_ad.php:456
+msgid "336 x 280"
+msgstr ""
+
+#: lib/ads.php:824
+#: lib/create_ad.php:462
+#: lib/top_link_ad.php:145
+msgid "468 x 15"
+msgstr ""
+
+#: lib/ads.php:830
+#: lib/create_ad.php:468
+msgid "468 x 60"
+msgstr ""
+
+#: lib/ads.php:836
+#: lib/create_ad.php:474
+#: lib/top_link_ad.php:151
+msgid "728 x 15"
+msgstr ""
+
+#: lib/ads.php:842
+#: lib/create_ad.php:480
+msgid "728 x 90"
+msgstr ""
+
+#: lib/ads.php:847
+#: lib/create_ad.php:485
+msgid "Corner Style"
+msgstr ""
+
+#: lib/ads.php:851
+#: lib/create_ad.php:489
+msgid "Square"
+msgstr ""
+
+#: lib/ads.php:856
+#: lib/create_ad.php:494
+msgid "Slightly rounded"
+msgstr ""
+
+#: lib/ads.php:861
+#: lib/create_ad.php:499
+msgid "Very rounded"
+msgstr ""
+
+#: lib/ads.php:866
+#: lib/create_ad.php:504
+msgid "Font Family"
+msgstr ""
+
+#: lib/ads.php:870
+#: lib/create_ad.php:508
+msgid "Use account default"
+msgstr ""
+
+#: lib/ads.php:875
+#: lib/create_ad.php:513
+msgid "AdSense default font family"
+msgstr ""
+
+#: lib/ads.php:880
+#: lib/create_ad.php:518
+msgid "Arial"
+msgstr ""
+
+#: lib/ads.php:885
+#: lib/create_ad.php:523
+msgid "Verdana"
+msgstr ""
+
+#: lib/ads.php:890
+#: lib/create_ad.php:528
+msgid "Times"
+msgstr ""
+
+#: lib/ads.php:924
+#: lib/create_ad.php:562
+#: lib/top_link_ad.php:156
+msgid "Colors<br /><a href=\"#\" id=\"aswp_restore_default\">Restore Default</a>"
+msgstr ""
+
+#: lib/ads.php:926
+#: lib/create_ad.php:564
+#: lib/top_link_ad.php:158
+msgid "Border"
+msgstr ""
+
+#: lib/ads.php:932
+#: lib/create_ad.php:570
+#: lib/top_link_ad.php:164
+msgid "Background"
+msgstr ""
+
+#: lib/ads.php:939
+#: lib/create_ad.php:577
+#: lib/top_link_ad.php:171
+msgid "Title"
+msgstr ""
+
+#: lib/ads.php:953
+#: lib/create_ad.php:591
+msgid "Url"
+msgstr ""
+
+#: lib/ads.php:962
+#: lib/create_ad.php:600
+#: lib/top_link_ad.php:180
+msgid "Ad Preview"
+msgstr ""
+
+#: lib/ads.php:974
+#: lib/create_ad.php:612
+#: lib/top_link_ad.php:190
+msgid "Advanced"
+msgstr ""
+
+#: lib/ads.php:977
+#: lib/create_ad.php:615
+#: lib/top_link_ad.php:193
+msgid "Publisher ID<br /><span class=\"description\">You can enter different Publisher ID for this ad only or<br />leave it empty to use the global Publisher ID set in options page.</span>"
+msgstr ""
+
+#: lib/ads.php:980
+#: lib/create_ad.php:618
+#: lib/options.php:64
+#: lib/top_link_ad.php:196
+msgid "Custom Channel"
+msgstr ""
+
+#: lib/ads.php:986
+msgid "Update Ad"
+msgstr ""
+
+#: lib/ads.php:1021
+#: lib/create_ad.php:658
+msgid "Please enter Ad Name."
+msgstr ""
+
+#: lib/ads.php:1031
+#: lib/create_ad.php:668
+msgid "Please select Ad Type."
+msgstr ""
+
+#: lib/ads.php:1045
+#: lib/ads.php:1065
+#: lib/create_ad.php:682
+#: lib/create_ad.php:702
+msgid "Please select at least one In Post Position."
+msgstr ""
+
+#: lib/ads.php:1056
+#: lib/create_ad.php:693
+msgid "Please enter the number of paragraphs."
+msgstr ""
+
+#: lib/ads.php:1108
+#: lib/create_ad.php:745
+msgid "Please select at least one ad Format."
+msgstr ""
+
+#: lib/core.php:65
+#: lib/top_link_ad.php:65
+msgid "Top Link Ad"
+msgstr ""
+
+#: lib/core.php:66
+#: lib/google_search.php:46
+msgid "Google Search"
+msgstr ""
+
+#: lib/core.php:67
+#: lib/privacy_policy.php:58
+msgid "Privacy Policy Creator"
+msgstr ""
+
+#: lib/core.php:68
+#: lib/options.php:39
+msgid "Options"
+msgstr ""
+
+#: lib/core.php:296
+#: lib/core.php:305
+msgid "Disable Ads"
+msgstr ""
+
+#: lib/core.php:340
+msgid "Check to disable ads on this page"
+msgstr ""
+
+#: lib/core.php:460
+msgid "Oops, error!"
+msgstr ""
+
+#: lib/core.php:548
+msgid "Ad Details"
+msgstr ""
+
+#: lib/core.php:549
+msgid "Insert Ad"
+msgstr ""
+
+#: lib/core.php:553
+msgid "Ad Formats"
+msgstr ""
+
+#: lib/core.php:623
+msgid "Registration"
+msgstr ""
+
+#: lib/core.php:630
+#: lib/core.php:670
+msgid "Registration Help"
+msgstr ""
+
+#: lib/core.php:634
+msgid "This plugin requires you to register."
+msgstr ""
+
+#: lib/core.php:635
+msgid "You are required to enter your name and valid email."
+msgstr ""
+
+#: lib/core.php:636
+#, php-format
+msgid "Your Name and Email address will be sent to AdSenseWPPlugin.com and then the data will be sent to our Aweber subscription list. You can view the terms at our Privacy Policy Page here: %1$shttp://www.adsensewpplugin.com/privacy%2$s and the Aweber Privacy Policy here: %3$shttp://www.aweber.com/privacy.htm%4$s."
+msgstr ""
+
+#: lib/core.php:637
+msgid "Note: If you have already registered, simply enter your name and email again and the plugin will be activated right away. Your email will not be added to the AWeber subscription list again."
+msgstr ""
+
+#: lib/core.php:653
+msgid "Your Name"
+msgstr ""
+
+#: lib/core.php:656
+msgid "Your Email"
+msgstr ""
+
+#: lib/core.php:662
+msgid "Submit"
+msgstr ""
+
+#: lib/core.php:674
+#: lib/core.php:780
+msgid "Please check your email and confirm the subscription."
+msgstr ""
+
+#: lib/core.php:675
+msgid "Once you confirm the subscription, click on the Activate Plugin button to finish the registration."
+msgstr ""
+
+#: lib/core.php:688
+msgid "Activate Plugin"
+msgstr ""
+
+#: lib/core.php:689
+msgid "Reset Name & Email"
+msgstr ""
+
+#: lib/core.php:737
+msgid "Please enter your name."
+msgstr ""
+
+#: lib/core.php:745
+msgid "Please enter valid email address."
+msgstr ""
+
+#: lib/create_ad.php:624
+msgid "Create Ad"
+msgstr ""
+
+#: lib/google_search.php:36
+#: lib/privacy_policy.php:36
+msgid "Oops, an error occurred!"
+msgstr ""
+
+#: lib/google_search.php:40
+msgid "Google Search options saved."
+msgstr ""
+
+#: lib/google_search.php:68
+msgid "Replace WP search"
+msgstr ""
+
+#: lib/google_search.php:68
+msgid "This function works only if your theme does not have a file called \"searchform.php\"."
+msgstr ""
+
+#: lib/google_search.php:68
+msgid "By checking this box, the default Wordpress search will be replaced by Google search"
+msgstr ""
+
+#: lib/google_search.php:71
+#: lib/privacy_policy.php:81
+msgid "Page Title"
+msgstr ""
+
+#: lib/google_search.php:71
+msgid "Search"
+msgstr ""
+
+#: lib/google_search.php:71
+msgid "Title of the page where Google results will be shown."
+msgstr ""
+
+#: lib/google_search.php:74
+msgid "Page URL Slug"
+msgstr ""
+
+#: lib/google_search.php:74
+msgid "Page url slug where the Google results will be shown."
+msgstr ""
+
+#: lib/google_search.php:80
+msgid "Google Search Codes"
+msgstr ""
+
+#: lib/google_search.php:83
+msgid "Search Box Code"
+msgstr ""
+
+#: lib/google_search.php:86
+msgid "Search Results Code"
+msgstr ""
+
+#: lib/google_search.php:92
+#: lib/top_link_ad.php:202
+msgid "Help"
+msgstr ""
+
+#: lib/google_search.php:96
+msgid "Not sure where and how to get the Google Search Codes? Visit this page for more information: "
+msgstr ""
+
+#: lib/google_search.php:97
+msgid "You can also display the Google Search Box by calling it directly in your theme by using the following line:"
+msgstr ""
+
+#: lib/google_search.php:105
+#: lib/top_link_ad.php:216
+msgid "Save"
+msgstr ""
+
+#: lib/google_search_widget.php:20
+msgid "Adds Google Search to the sidebar"
+msgstr ""
+
+#: lib/google_search_widget.php:57
+#: lib/google_search_widget.php:97
+msgid "To set up Google Search, go to: "
+msgstr ""
+
+#: lib/google_search_widget.php:95
+#: lib/show_ad_widget.php:153
+msgid "Title:"
+msgstr ""
+
+#: lib/html.php:263
+msgid "Click to toggle"
+msgstr ""
+
+#: lib/html.php:417
+#: lib/html.php:718
+#: lib/html.php:719
+#: lib/html.php:720
+#: lib/html.php:721
+msgid "Ad Title"
+msgstr ""
+
+#: lib/html.php:418
+msgid "Ad text will be shown here..."
+msgstr ""
+
+#: lib/html.php:419
+msgid "www.ad-link.com"
+msgstr ""
+
+#: lib/html.php:564
+#: lib/html.php:568
+#: lib/html.php:572
+#: lib/html.php:576
+msgid "px"
+msgstr ""
+
+#: lib/html.php:616
+msgid "Bulk Actions"
+msgstr ""
+
+#: lib/html.php:619
+msgid "Apply"
+msgstr ""
+
+#: lib/html.php:717
+msgid "Ads by Google"
+msgstr ""
+
+#: lib/options.php:34
+msgid "Options saved."
+msgstr ""
+
+#: lib/options.php:61
+msgid "Publisher ID <strong>(Numbers Only!)</strong>"
+msgstr ""
+
+#: lib/options.php:61
+msgid "Your AdSense Publisher ID can be found in your AdSense panel in the top right corner, eg: pub-<strong>1234567890123456</strong>"
+msgstr ""
+
+#: lib/options.php:64
+msgid "(optional)"
+msgstr ""
+
+#: lib/options.php:67
+msgid "Disable all ads for everybody"
+msgstr ""
+
+#: lib/options.php:70
+msgid "Disable all ads for administrators"
+msgstr ""
+
+#: lib/options.php:73
+msgid "Enable all ads for administrators only"
+msgstr ""
+
+#: lib/options.php:76
+msgid "Delete data on plugin deactivate"
+msgstr ""
+
+#: lib/options.php:76
+msgid "Check to delete the data tables and any other data that was created by this plugin"
+msgstr ""
+
+#: lib/options.php:82
+msgid "Save Changes"
+msgstr ""
+
+#: lib/privacy_policy.php:40
+msgid "Privacy policy page was successfully created."
+msgstr ""
+
+#: lib/privacy_policy.php:72
+msgid "Blog Name"
+msgstr ""
+
+#: lib/privacy_policy.php:72
+msgid "Use [blogname] for substitution within the privacy text. You can use it as many times as you like."
+msgstr ""
+
+#: lib/privacy_policy.php:75
+msgid "Email"
+msgstr ""
+
+#: lib/privacy_policy.php:75
+msgid "Use [email] for substitution within the privacy text. You can use it as many times as you like."
+msgstr ""
+
+#: lib/privacy_policy.php:78
+msgid "Blog URL"
+msgstr ""
+
+#: lib/privacy_policy.php:78
+msgid "Use [blogurl] for substitution within the privacy text. You can use it as many times as you like."
+msgstr ""
+
+#: lib/privacy_policy.php:84
+msgid "Page URL"
+msgstr ""
+
+#: lib/privacy_policy.php:90
+#: lib/privacy_policy.php:129
+msgid "Create Privacy Policy"
+msgstr ""
+
+#: lib/privacy_policy.php:93
+msgid "Privacy Policy Content"
+msgstr ""
+
+#: lib/privacy_policy.php:96
+msgid "Section 1"
+msgstr ""
+
+#: lib/privacy_policy.php:96
+#: lib/privacy_policy.php:99
+#: lib/privacy_policy.php:102
+#: lib/privacy_policy.php:105
+#: lib/privacy_policy.php:108
+#: lib/privacy_policy.php:111
+msgid " Include this section"
+msgstr ""
+
+#: lib/privacy_policy.php:96
+msgid "This is the basic privacy statement of intent that your blog supports. You will nearly always want to include this section."
+msgstr ""
+
+#: lib/privacy_policy.php:99
+msgid "Section 2"
+msgstr ""
+
+#: lib/privacy_policy.php:99
+msgid "Required by Google AdSense Terms and Conditions."
+msgstr ""
+
+#: lib/privacy_policy.php:102
+msgid "Section 3"
+msgstr ""
+
+#: lib/privacy_policy.php:102
+msgid "Is your website or blog suitable for people under the age of 18? Does it contain adult content or themes that are not suitable for children?"
+msgstr ""
+
+#: lib/privacy_policy.php:105
+msgid "Section 4"
+msgstr ""
+
+#: lib/privacy_policy.php:105
+msgid "This section states what information your site might record, typically IP addresses in web logs for example, or perhaps Google Analytics."
+msgstr ""
+
+#: lib/privacy_policy.php:108
+msgid "Section 5"
+msgstr ""
+
+#: lib/privacy_policy.php:108
+msgid "If you blog links to other sites, this section mitigates you against whatever content might be contained by third party websites."
+msgstr ""
+
+#: lib/privacy_policy.php:111
+msgid "Section 6"
+msgstr ""
+
+#: lib/privacy_policy.php:111
+msgid "Put any other information here, for example state that changes may be made to the policy at any time."
+msgstr ""
+
+#: lib/privacy_policy.php:120
+msgid "Include a last updated date stamp?"
+msgstr ""
+
+#: lib/privacy_policy.php:123
+msgid "Include a credit link for the AdSense Wordpress Plugin?"
+msgstr ""
+
+#: lib/privacy_policy.php:270
+msgid "Created By"
+msgstr ""
+
+#: lib/privacy_policy.php:279
+msgid "Updated on"
+msgstr ""
+
+#: lib/privacy_policy.php:355
+msgid "Privacy Policy"
+msgstr ""
+
+#: lib/privacy_policy.php:358
+msgid "Privacy Policy for [blogurl]"
+msgstr ""
+
+#: lib/privacy_policy.php:359
+msgid "Your privacy is important to us. To better protect your privacy we provide this notice explaining our online information practices and the choices you can make about the way your information is collected and used. To make this notice easy to find, we make it available on our homepage and at every point where personally identifiable information may be requested."
+msgstr ""
+
+#: lib/privacy_policy.php:361
+msgid "Google Adsense and the DoubleClick DART Cookie"
+msgstr ""
+
+#: lib/privacy_policy.php:362
+msgid ""
+"Google, as a third party advertisement vendor, uses cookies to serve ads on this site. The use of DART cookies by Google enables them to serve adverts to visitors that are based on their visits to this website as well as other sites on the internet.\n"
+"\n"
+"To opt out of the DART cookies you may visit the Google ad and content network privacy policy at the following url http://www.google.com/privacy_ads.html Tracking of users through the DART cookie mechanisms are subject to Google's own privacy policies.\n"
+"\n"
+"Other Third Party ad servers or ad networks may also use cookies to track users activities on this website to measure advertisement effectiveness and other reasons that will be provided in their own privacy policies, [blogname] has no access or control over these cookies that may be used by third party advertisers."
+msgstr ""
+
+#: lib/privacy_policy.php:368
+msgid "Our Commitment To Childrens Privacy"
+msgstr ""
+
+#: lib/privacy_policy.php:369
+msgid ""
+"Protecting the privacy of the very young is especially important. For that reason, [blogname] will never collect or maintain information at our website from those we actually know are under 18, and no part of our website is structured to attract anyone under 18.\n"
+"Under our Terms of Service, children under 18 are not allowed to access our service."
+msgstr ""
+
+#: lib/privacy_policy.php:372
+msgid "Collection of Personal Information"
+msgstr ""
+
+#: lib/privacy_policy.php:373
+msgid "When visiting [blogname], the IP address used to access the site will be logged along with the dates and times of access. This information is purely used to analyze trends, administer the site, track users movement and gather broad demographic information for internal use. Most importantly, any recorded IP addresses are not linked to personally identifiable information."
+msgstr ""
+
+#: lib/privacy_policy.php:375
+msgid "Links to third party Websites"
+msgstr ""
+
+#: lib/privacy_policy.php:376
+msgid "We have included links on this site for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these sites may differ from our own."
+msgstr ""
+
+#: lib/privacy_policy.php:378
+msgid "Changes to this Privacy Statement"
+msgstr ""
+
+#: lib/privacy_policy.php:379
+msgid ""
+"The contents of this statement may be altered at any time, at our discretion.\n"
+"\n"
+"If you have any questions regarding the privacy policy of [blogname] then you may contact us at [email]"
+msgstr ""
+
+#: lib/show_ad_widget.php:20
+msgid "Adds selected ads to the sidebar"
+msgstr ""
+
+#: lib/show_ad_widget.php:156
+msgid "Select Ad:"
+msgstr ""
+
+#: lib/top_link_ad.php:73
+msgid "Top Link Ad successfully saved."
+msgstr ""
+
+#: lib/top_link_ad.php:94
+msgid "Enable Top Link Ad"
+msgstr ""
+
+#: lib/top_link_ad.php:112
+msgid "Show top link ad on selected pages"
+msgstr ""
+
+#: lib/top_link_ad.php:206
+msgid "Top Ads will not be visible on your site while you are logged into the WordPress Admin. Please log out of WordPress in order to view these Ads."
+msgstr ""
+
+#: lib/top_link_ad.php:207
+msgid "If you wish to include the top link ad in some other position, add the following code to your theme where you want the link ad to appear:"
+msgstr ""
+
+#: lib/top_link_ad.php:209
+msgid "<strong>Note:</strong> Some themes don't allow for this Ad to populate correctly. If it is cutting off the top of your theme, try another theme or disable this feature."
+msgstr ""
+
